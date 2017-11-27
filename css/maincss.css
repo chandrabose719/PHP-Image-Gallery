@@ -1,0 +1,316 @@
+/*Body Part*/
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    color: #666;
+    background-color: #ffffff;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+/*Navbar Part*/
+#header-part .navbar-custom{
+    background:#8470ff;
+    box-shadow:0px 0px 20px rgba(5, 5, 5,5); 
+}
+#header-part .navbar-header{
+    padding:10px;        
+}
+#header-part .navbar-header a{
+    padding:15px 0px 0px 0px;
+    color:#111111;
+    font-weight:800;
+    font-size:25px;           
+}
+#header-part .navbar-header a:hover{
+    color:#111111;         
+}
+#header-part .navbar-right{
+    padding:16px 0 0 0; 
+}
+#header-part .navbar-custom ul li a {
+    font-size:15px;
+    color:#111111;
+    text-transform:uppercase;
+    font-weight:700;
+}
+#header-part .navbar-custom ul li a:hover{
+    background:none; 
+}
+
+/*Index Part*/
+#index-part{
+    width:100%;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(../images/index/bg-index.jpg); 
+}
+#index-part .container{
+    padding:110px 0px 50px 0px; 
+}
+#index-part .login-part{  
+    padding:45px 0px 0px 0px;
+}
+#index-part .login-part h4{  
+    color:#ffffff;
+    font-size:38px;
+    font-family:'Droid Sans', sans-serif;
+}
+#index-part .login-part .divider{
+    width:390px; 
+    border:1px solid #ffffff;
+}
+#index-part .login-part form{
+    padding:20px 0px 0px 0px; 
+}
+#index-part .login-part form label{
+    color:#ffffff;  
+}
+#index-part .login-part .btn-submission{
+   padding:20px 15px 0px 15px; 
+}
+#index-part .login-part p{
+    color:#ffffff; 
+}
+#index-part .login-part p a,
+#index-part .login-part p a:hover{
+    color:#ffffff;
+    text-decoration:none;  
+}
+
+/*Content Part*/
+#content-part{
+    width:100%;
+    background:url(../images/content/bg-content.png);
+}
+#content-part .container{
+  padding:50px 10px 10px 10px;  
+}
+#content-part .index-content{
+  text-align:center;
+  padding:10px 10px 10px 10px;  
+}
+#content-part .index-content h2{
+    text-align:center; 
+    color:#111111;
+    font-size:52px;
+    font-family:'Droid Sans', sans-serif;
+}
+#content-part .index-content p{
+    text-align:center; 
+    color:#111111; 
+}
+
+/*Register Part*/
+#register-part{
+    width:100%;
+    background:#ffffff; 
+}
+#register-part .container{
+    padding:100px 0px 50px 0px;  
+}
+#register-part .form-content{  
+    padding:45px 0px 0px 0px;
+}
+#register-part .form-content h4{  
+    color:#111111;
+    font-size:38px;
+    font-family:'Droid Sans', sans-serif;
+}
+#register-part .form-content .divider{
+    width:350px; 
+    border:1px solid #111111;
+}
+#register-part .form-content form{
+    padding:20px 0px 0px 0px; 
+}
+#register-part .form-content form label{
+    color:#111111;  
+}
+#register-part .form-content .btn-submission{
+   padding:20px 15px 0px 15px; 
+}
+#register-part .form-content p{
+    color:#111111; 
+}
+#register-part .form-content p a,
+#register-part .form-content p a:hover{
+    color:#111111;
+    text-decoration:none;  
+}
+
+/*Home Part*/
+#home-part{
+    background:#ffffff;
+    width:100%;
+}
+#home-part .container{
+    padding:100px 0px 50px 0px;
+}
+#home-part .container h2{
+    color:#111111;
+    font-size:42px;
+    text-align:center; 
+    font-family:'Droid Sans', sans-serif; 
+}
+#home-part .container h4{
+    color:#111111;
+    font-size:24px;
+    text-align:center;
+    font-family:'Droid Sans', sans-serif; 
+}
+#home-part .container .divider{
+    width:350px;
+    margin:0 auto; 
+    border:1px solid #111111;
+}
+#home-part .home-content{
+    text-align:center;
+    padding:15px 0px 30px 0px;
+    border-radius:5px;  
+    box-shadow:0px 0px 10px rgba(5, 5, 5,5);    
+}
+#home-part .home-content h3{
+    color:#111111;
+    font-size:28px;
+    padding:0px 0px 10px 0px; 
+    font-family:'Droid Sans', sans-serif;   
+}
+#home-part .home-content .divider{
+    margin:0 auto;
+    width:150px; 
+    border:1px solid #111111;    
+}
+
+/*New Gallery*/
+#new-gallery-part{
+    width:100%;
+    background:#ffffff;
+}
+#new-gallery-part .container{
+    padding:100px 0px 50px 0px; 
+}
+#new-gallery-part .new-gallery-content h3{
+    color:#111111;
+    font-size:38px;
+    font-family:'Droid Sans', sans-serif;
+}
+#new-gallery-part .new-gallery-content .divider{
+    width:150px; 
+    border:1px solid #111111;
+}
+
+/*View Part*/
+#imageview-part{
+    background:#ffffff;
+    width:100%;
+}
+#imageview-part .container{
+    padding:100px 0px 50px 0px;
+}
+#imageview-part .container h2{
+    color:#111111;
+    font-size:42px;
+    text-align:center; 
+    font-family:'Droid Sans', sans-serif; 
+}
+#imageview-part .container h4{
+    color:#111111;
+    font-size:24px;
+    text-align:center;
+    font-family:'Droid Sans', sans-serif; 
+}
+#imageview-part .container ul{
+    text-align:center;
+    padding:10px;  
+}
+#imageview-part .container ul li{
+    display:inline; 
+    background:#8470ff;
+    text-align:center;
+    border:1px solid #8470ff;
+    border-radius:5px; 
+    padding:10px 20px 10px 20px; 
+}
+#imageview-part .container ul li:hover{
+    background:#ffffff;
+    border:1px solid #8470ff;
+}
+#imageview-part .container ul li a,
+#imageview-part .container ul li a:hover{
+    color:#111111;
+    font-size:15px;
+    text-align:center;
+    text-decoration:none; 
+    font-family:'Droid Sans', sans-serif; 
+}
+#imageview-part .container .divider{
+    width:350px;
+    margin:0 auto; 
+    border:1px solid #111111;
+}
+#imageview-part .imageview-content{
+    text-align:center;
+    padding:10px 5px 10px 5px;
+    border-radius:5px;  
+    box-shadow:0px 0px 10px rgba(5, 5, 5,5);    
+}
+#imageview-part .imageview-content img{
+    width:240px;
+    height:220px;
+    border-radius:2px;    
+}
+
+/*Profile Part*/
+#profile-part{
+    background:#ffffff;
+    width:100%;
+}
+#profile-part .container{
+    padding:100px 0px 50px 0px;
+}
+#profile-part .profile-content div{
+    text-align:center; 
+}
+#profile-part .profile-content h1{
+    color:#111111;
+    font-size:42px;
+    text-align:center; 
+    font-family:'Droid Sans', sans-serif;
+}
+
+/*Edit Part*/
+#edit-part{
+    background:#ffffff;
+    width:100%;
+}
+#edit-part .container{
+    padding:100px 0px 50px 0px;
+}
+#edit-part .edit-content table tr{
+    text-align:center; 
+}
+#edit-part .edit-content h1{
+    color:#111111;
+    font-size:42px;
+    text-align:center; 
+    font-family:'Droid Sans', sans-serif;
+}
+
+/*Footer Part*/
+#footer-part{
+    background:#111;
+    color:#fff;
+    padding:20px;   
+}
+#footer-part .copyright{
+    text-align:center;  
+}
+
